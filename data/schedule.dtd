@@ -12,11 +12,11 @@ The data generated here comes from ACIT Winter 2016 Timetable.
 <!-- DAY PERSPECTIVE -->
 <!-- Each day element contains a specific day of the week (excluding weekend).
 -->
-<!ELEMENT day (aDay)*>
+<!ELEMENT day (aDay)>
 
 <!-- Each aDay element contains day booking of certain course.
 -->
-<!ELEMENT aDay (dBooking)*>
+<!ELEMENT aDay (dBooking)>
 <!ATTLIST aDay
     weekday (Monday|Tuesday|Wednesday|Thursday|Friday) #REQUIRED
 >
@@ -33,11 +33,11 @@ instructor  - who teaches the scheduled course
 <!-- PERIOD PERSPECTIVE -->
 <!-- Each period element contains a timeslot available for course scheduling
 -->
-<!ELEMENT period (timeslot)*>
+<!ELEMENT period (timeslot)>
 
 <!-- Each timeslot element contains period booking of certain course.
 -->
-<!ELEMENT timeslot (pBooking)*>
+<!ELEMENT timeslot (pBooking)>
 <!ATTLIST timeslot
     duration CDATA #REQUIRED
     start CDATA #REQUIRED
@@ -55,11 +55,11 @@ instructor  - who teaches the scheduled course
 <!-- COURSE PERSPECTIVE -->
 <!-- Each course element contains a course available in the term
 -->
-<!ELEMENT course (aCourse)*>
+<!ELEMENT course (aCourse)>
 
 <!-- Each aCourse element contains course booking at a certain day and time.
 -->
-<!ELEMENT aCourse (cBooking)*>
+<!ELEMENT aCourse (cBooking)>
 <!-- code refers to a unique program course id and name refers to course name
 -->
 <!ATTLIST aCourse
@@ -81,9 +81,9 @@ instructor  - who teaches the scheduled course
 >
 
 <!-- Elements containing no children -->
-<!ELEMENT timeStart (#PCDATA)*>
-<!ELEMENT timeEnd (#PCDATA)*>
-<!ELEMENT daySlot (#PCDATA)*>
-<!ELEMENT courseName (#PCDATA)*>
-<!ELEMENT room (#PCDATA)*>
-<!ELEMENT instructor (#PCDATA)*>
+<!ELEMENT timeStart (#PCDATA)>
+<!ELEMENT timeEnd (#PCDATA)>
+<!ELEMENT daySlot (#PCDATA)>
+<!ELEMENT courseName (#PCDATA)>
+<!ELEMENT room (#PCDATA)>
+<!ELEMENT instructor (#PCDATA)>

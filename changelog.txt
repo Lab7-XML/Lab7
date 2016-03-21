@@ -13,4 +13,5 @@ DD/MM/YY @ hh:mm - Change Description (INITIAL)
 03/07/16 @ 14:24 - Fixed xml validation for period (RD)
 
 03/09/16 @ 15:50 - Reuploaded CodeIgniter Starter with .htaccess (CS)
-03/09/16 @ 16:00 - Created Timetable.php model (CS)
+03/09/16 @ 16:00 - Created Timetable.php model (0CS)
+03/21/16 @ 16:45 - Fixed schedule.dtd and period.xml

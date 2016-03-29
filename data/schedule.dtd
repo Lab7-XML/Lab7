@@ -3,10 +3,11 @@ DTD for: winter2016-day.xml, winter2016-period.xml, and winter2016-course.xml.
 
 ACIT 4850 Winter 2016
 -->
-
+<!ELEMENT timetable (day|period|course)+>
 <!-- The root element, which should contain: day of the week, class period, and course.
 The data generated here comes from ACIT Winter 2016 Timetable.
 -->
+
 <!ELEMENT schedule (day, period, course)>
 
 <!-- DAY PERSPECTIVE -->

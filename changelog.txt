@@ -25,3 +25,7 @@ DD/MM/YY @ hh:mm - Change Description (INITIAL)
 03/22/16 @ 15:09 - Added welcome view (CS)
 03/22/16 @ 15:11 - Added MY_Controller file (CS)
 03/22/16 @ 15:22 - Modified autoload.php file for parsing (CS)
+
+03/28/16 @ 17:29 - created timetable.xml (unvalidated) (RD)
+03/28/16 @ 18:07 - Modified schedule.dtd to include timetable elements (RD)
+03/28/16 @ 19:52 - created timetable.xsd (unvalidated) (RD)
